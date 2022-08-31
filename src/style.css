@@ -1,0 +1,19 @@
+/* .active { */
+/*     opacity: 1; */
+/* } */
+
+/* ul > * { */
+/*     opacity: 0.5; */
+/* } */
+
+.active {
+    opacity: 1;
+}
+
+.active + li {
+    opacity: 0.5;
+}
+
+.active ~ li {
+    opacity: 0.5;
+}
